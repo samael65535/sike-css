@@ -181,8 +181,6 @@ ul.inline-items li {
     overflow: hidden;
 }
 
-
-
 .photos__list {
     list-style: none;
     display: block;
@@ -199,4 +197,47 @@ ul.inline-items li {
     padding: 10px;
     float: left;
     width: 100%;
+}
+
+.get-in-touch__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.get-in-touch__list li{
+    text-align: center;
+    width: 25%;
+    padding: 0px;
+    float: left;
+}
+
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width:100%;
+    display:block;
+
+    margin: 4px;
+}
+
+.contact form{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+    width:100%;
+    background: #ffd524;
+    margin: 5px auto;
+    padding: 8px;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
 }
